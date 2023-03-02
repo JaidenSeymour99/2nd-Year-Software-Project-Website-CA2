@@ -1,0 +1,815 @@
+:root {
+    --main-font-family: "Microsoft New Tai Lue";
+    --main-text-colour: rgb(190, 188, 185);
+    --main-dark-text-colour: rgb(20, 20, 20);
+}
+
+/*
+*****************************************************************************************************************************************
+this is the font i wanted but is just not changing so im leaving in the one that works but i dont like --main-font-family: "Segoe Print";
+*****************************************************************************************************************************************
+
+****************^^^^^^^^^^^^^ fixed ^^^^^^^^^^^***********************
+                    just had to refresh my cache
+*/
+
+a:default {
+    text-decoration: inherit;
+    font-family: var(--main-font-family);
+
+}
+
+a:hover {
+    text-decoration: inherit;
+
+}
+
+li {
+    display: inline;
+}
+
+.mainText {
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    font-size: 16px;
+}
+
+
+.error {
+    color: rgb(184, 19, 13);
+}
+
+.errormsg {
+
+    color: rgb(184, 19, 13);
+}
+
+.paddingTopNavbar {
+    padding-top: 40px;
+}
+
+P {
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+}
+
+.bg {
+    background-color: rgb(35, 40, 52);
+}
+
+
+.background {
+    background-color: rgb(35, 40, 52)
+}
+
+.bgTop {
+    background-color: rgb(35, 40, 52);
+}
+
+
+.TopNavBackground {
+    background-color: rgb(23, 26, 33);
+}
+
+.textYAM {
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: "Calibri";
+    color: rgb(193, 191, 188);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.NavPadding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.RegisterPadding {
+    padding-right: 5px;
+
+}
+
+.LoginPadding {
+    padding-left: 5px;
+}
+
+.topPadding {
+    padding-top: 5px;
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+.NavLink {
+    padding-top: 60px;
+    font-size: 16px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.loginBg {
+    background-color: rgb(48, 171, 108);
+}
+
+
+.registerBg {
+
+    background-color: rgb(6, 17, 27);
+}
+
+
+.Login {
+    font-size: 16px;
+    font-family: var(--main-font-family);
+    color: rgb(233, 228, 228);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.SecondNavBg {
+    background-color: rgb(27, 62, 84);
+    opacity: 0.8;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.doomBg {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 953px;
+    height: 520px;
+}
+
+.paddingTop {
+    padding-top: 20px;
+}
+
+.Your_Store {
+    font-size: 16px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+}
+
+.paddingNav {
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+
+.GradientBg {
+    background-image: -moz-linear-gradient(90deg, rgb(43, 42, 70) 10%, rgb(22, 75, 107) 50%, rgb(27, 62, 84) 90%);
+    background-image: -webkit-linear-gradient(90deg, rgb(43, 42, 70) 10%, rgb(22, 75, 107) 50%, rgb(27, 62, 84) 90%);
+    background-image: -ms-linear-gradient(90deg, rgb(43, 42, 70) 10%, rgb(22, 75, 107) 50%, rgb(27, 62, 84) 90%);
+}
+
+.TitleText {
+    font-size: 34px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.TitleReviews {
+    font-size: 34px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.TitleMainPadding {
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.YamPadding {
+    padding-top: 20px;
+}
+
+.TitlePadding {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.paddingTitle {
+    padding-top: 60px;
+
+}
+
+.paddingLeft {
+    padding-left: 0px;
+}
+
+.paddingleft {
+    padding-left: 15px;
+}
+
+.bigLeft {
+    padding-left: 40px;
+}
+
+.paddingRight {
+    padding-right: 0px;
+}
+
+.midright {
+    padding-right: 20px;
+}
+
+.paddingright {
+    padding-right: 40px;
+}
+
+.BoxBg {
+    background-color: rgb(62, 84, 104);
+}
+
+.posterHomeGame {
+    font-size: 26px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.posterDescription {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+
+}
+
+.rightPadding {
+    padding-right: 20px;
+}
+
+.topImageHolder {
+
+    height: 540px;
+    width: 800px;
+    /*    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+}
+
+
+/*.specialOffers01 {
+    background-image: url(../../images/SkyrimPoster01.jpg);
+    height: 260px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}*/
+
+.specialOffer01Bg {
+    background-color: rgb(190, 219, 246);
+
+}
+
+
+
+.specialOffer0 {
+    background-image: url(../../images/skyrimPoster.jpg);
+    height: 126px;
+    width: 317px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.TopSellingImage {
+    background-image: url(../../images/skyrimPoster.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 303px;
+    height: 92px;
+}
+
+.MidweekMadnessText {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-family: var(--main-font-family);
+    color: var(--main-dark-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.altMidweekMadnessSmall {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: var(--main-font-family);
+    color: var(--main-dark-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.altAltMidweekMadnessSmall {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 0px;
+    font-family: var(--main-font-family);
+    color: var(--main-dark-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.MidweekMadnessSmall {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: var(--main-font-family);
+    color: var(--main-dark-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+
+.nowAvailable {
+    font-size: 23px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.Tag {
+    font-size: 18px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+
+}
+
+.TagBg {
+    background-color: rgb(46, 76, 104);
+}
+
+.DiscountBg {
+    background-color: rgb(48, 171, 108);
+
+}
+
+.altDiscountText {
+    font-size: 23px;
+    padding-left: 20px;
+    font-family: var(--main-font-family);
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.altaltDiscountText {
+    font-size: 23px;
+    padding-left: 20px;
+    font-family: var(--main-font-family);
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.DiscountText {
+    font-size: 23px;
+    padding-left: 0px;
+    font-family: var(--main-font-family);
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+    text-align: left;
+
+}
+
+.DiscountTextSmall {
+    font-size: 14px;
+    font-family: var(--main-font-family);
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.paddingToP {
+    padding-top: 15px;
+}
+
+.paddingtop {
+    padding-top: 7px;
+}
+
+.paddingbot {
+    padding-bottom: 3px;
+}
+
+.bigBotPadding {
+    padding-bottom: 120px;
+}
+
+.bigTopPadding {
+    padding-top: 120px;
+}
+
+.FooterText {
+    font-size: 14px;
+    font-family: var(--main-font-family);
+    color: rgb(191, 189, 187);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.FooterTextSmall {
+    font-size: 10px;
+    font-family: var(--main-font-family);
+    color: rgb(69, 79, 83);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.footerPadding {
+    padding-top: 10px;
+}
+
+.topSellingCardText {
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.altTopSellingCardText {
+    font-size: 15px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.topSellingBg {
+    background-color: rgb(62, 84, 104);
+}
+
+.paddingTopSellingCards {
+    padding-top: 30px;
+}
+
+
+/*////////////////////CSS FORM HOME PAGE DONE////////////////////////////*/
+
+/*////////////START OF REGISTER CSS///////////*/
+
+.RegisterBg {
+    background-image: -moz-linear-gradient(90deg, rgb(14, 31, 49) 0%, rgb(18, 61, 97) 48%, rgb(12, 34, 55) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(14, 31, 49) 0%, rgb(18, 61, 97) 48%, rgb(12, 34, 55) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(14, 31, 49) 0%, rgb(18, 61, 97) 48%, rgb(12, 34, 55) 100%);
+}
+
+.floatRight {
+    float: right;
+}
+
+.CreateAccountText {
+    font-size: 32px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    font-family: var(--main-font-family);
+    color: rgb(237, 240, 242);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.FbGoogleBg {
+    background-color: rgb(0, 92, 153);
+
+}
+
+.FbGoogleText {
+    font-size: 20px;
+    font-family: var(--main-font-family);
+    color: rgb(180, 226, 245);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.fbpadding {
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.googlepadding {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.OR {
+    font-size: 13px;
+    font-family: var(--main-font-family);
+    color: rgb(69, 79, 83);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.altOR {
+    font-size: 11px;
+    font-family: var(--main-font-family);
+    color: rgb(69, 79, 83);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.topPad {
+    padding-top: 25px;
+}
+
+hr {
+    height: 2px;
+    color: rgb(21, 41, 60);
+
+
+}
+
+.dropDownText {
+    font-family: var(--main-font-family);
+
+}
+
+.formPadding {
+    padding-top: 20px;
+}
+
+.altFormPadding {
+    padding-top: 10px;
+}
+
+.bigFormPadding {
+    padding-top: 40px;
+}
+
+.CreateFreeAccount {
+    font-size: 20px;
+    font-family: var(--main-font-family);
+    color: rgb(211, 220, 232);
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+.AlreadyHaveAcc {
+    font-size: 20px;
+    font-family: var(--main-font-family);
+    color: rgb(14, 134, 202);
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+.formBg {
+    background-color: rgb(6, 17, 27);
+
+}
+
+.formBg:focus {
+    background-color: rgb(6, 17, 27)
+}
+
+.formBoarder {
+    border-color: rgb(64, 75, 86);
+}
+
+.darkBoarder {
+    border-color: rgb(14, 134, 202);
+}
+
+
+
+input[type=text] {
+    color: white;
+    font-family: var(--main-font-family);
+}
+
+input[type=password] {
+    color: white;
+    font-family: var(--main-font-family);
+}
+
+option {
+    font-family: var(--main-font-family);
+}
+
+option:default {
+    font-family: var(--main-font-family);
+}
+
+.CreateFreeYamAcc {
+    font-size: 17px;
+    padding-bottom: 140px;
+    font-family: var(--main-font-family);
+    color: rgb(4, 144, 230);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.position {
+    position: relative;
+    top: 50;
+    transform: translateY(30%);
+}
+
+.BuyGameNameNow {
+    background-image: -moz-linear-gradient(90deg, rgb(49, 59, 71) 0%, rgb(84, 98, 112) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(49, 59, 71) 0%, rgb(84, 98, 112) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(49, 59, 71) 0%, rgb(84, 98, 112) 100%);
+}
+
+.BuyGameNameNowText {
+    font-size: 26px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.altBuyGameNameNowText {
+    font-size: 26px;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.PriceBg {
+
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0);
+}
+
+.moveBg01 {
+    bottom: 50;
+    /*    transform: translateY(90%);*/
+    transform: translate(1035%, 250%);
+    /*    transform: translateX(600%);*/
+}
+
+.moveBg02 {
+    bottom: 50;
+    transform: translate(500%, 40%);
+}
+
+.priceText {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.altPriceText {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--main-font-family);
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.paddingbottom {
+    padding-bottom: 120px;
+}
+
+.paddingsmallbottom {
+    padding-bottom: 15px;
+}
+
+.paddingTopBig {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.BgText {
+    border-radius: 5px;
+    background-color: rgb(62, 84, 104);
+}
+
+.AboutThisGameText {
+    font-size: 15px;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.profileImg {
+    background-image: url(../../images/profileImg.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+}
+
+.thumbsupImg {
+    background-image: url(../../images/thumbsUp.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 43px;
+    height: 43px;
+}
+
+.thumbsdownImg {
+    background-image: url(../../images/thumbsDown.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 43px;
+    height: 43px;
+}
+
+.thumbsupBg {
+    background-color: rgb(18, 26, 36);
+
+}
+
+
+.User_Name {
+    font-size: 23px;
+    padding-top: 28px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.altUser_Name {
+    font-size: 23px;
+    padding-top: 15px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.Posted {
+    font-size: 13px;
+    padding-left: 0px;
+    padding-top: 15px;
+    font-family: var(--main-font-family);
+    color: rgb(159, 157, 153);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.Recommended {
+    font-size: 26px;
+    padding-top: 5px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.ReviewText {
+    font-size: 12px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-colour);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.reviewPaddingBot {
+    padding-bottom: 20px;
+}
